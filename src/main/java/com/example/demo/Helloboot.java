@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Helloboot {
     @RequestMapping("/hello")
     public String getString(){
-        return "hello boot";
+        return "hello boot with commit2";
     }
 }
